@@ -1,40 +1,10 @@
-.callout p {
-    border: 1px solid black;
-    padding: 10px;
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: navy;
+    color: #ffffff;
+    padding: 1rem;
     text-align: center;
-    background-color: rgb(33, 29, 29);
-    color: white;
-    max-width: 400px;
-    margin: auto;
-}
-
-.content h1 {
-    text-align: center;
-}
-
-.content img {
-    width: 350px;
-    box-shadow: 0 0 30px;
-    border: 1px solid black;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.content section {
-    border: 1px solid white;
-    padding: 10px;
-    background-color: rgb(184, 181, 181);
-    max-width: 330px;
-    margin: 20px auto;
-}
-
-.footer p {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-    background-color: rgb(33, 29, 29);
-    color: white;
-    max-width: 400px;
-    margin: auto;
 }
