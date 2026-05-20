@@ -22,5 +22,28 @@ footer {
     padding-top: 5px;
     /* Remove the comment below and observe the results. */
 
-    /* clear: both; */
+    clear: both;
 }
+
+/* section {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    width: 100%;
+    float: left;
+}
+
+div {
+    margin: 5px;
+    width: 50px;
+    height: 150px;
+}
+
+.left {
+    float: left;
+    background: pink;
+}
+
+.right {
+    float: right;
+    background: cyan;
+} */
