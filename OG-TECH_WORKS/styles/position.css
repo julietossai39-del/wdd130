@@ -1,0 +1,40 @@
+/* 1. FIXED HEADER */
+.fixed-header {
+    position: fixed;
+    /* Glued to the glass screen */
+    top: 0;
+    /* Snapped perfectly to the top edge */
+    left: 0;
+    /* Snapped perfectly to the left edge */
+    width: 100%;
+    /* Stretches all the way across the screen */
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+/* 2. RELATIVE CARD */
+.relative-card {
+    position: relative;
+    /* Becomes the "Boss Box" for anything inside it */
+    margin-top: 100px;
+    /* Pushes it down so it doesn't hide under the fixed header */
+    background: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 300px;
+}
+
+/* 3. ABSOLUTE BADGE */
+.absolute-badge {
+    position: absolute;
+    /* Peels off the page like a sticker */
+    top: 10px;
+    /* 10 pixels down from the Card's top edge */
+    right: 10px;
+    /* 10 pixels left from the Card's right edge */
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+}
