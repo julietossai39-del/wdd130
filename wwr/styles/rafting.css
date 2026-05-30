@@ -17,7 +17,7 @@ header {
     display: grid;
     grid-template-columns: 250px 10fr;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--accent1-color);
 }
 
 * {
@@ -38,14 +38,14 @@ header img {
 
 .navigation a {
     display: block;
-    color: white;
+    color: var(--accent2-color);
     padding: 30px;
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 .navigation a:hover {
-    color: tomato;
+    color: var(--accent1-color);
     text-decoration: underline;
 }
 
@@ -122,7 +122,7 @@ nav a {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--accent2-color);
     /* white text – make sure there is enough contrast with the background-color */
 }
 
@@ -139,14 +139,12 @@ nav a {
     margin: 1px auto;
     padding: 1px;
     max-width: 1200px;
-    background-color: white;
 }
 
 figure {
     flex: 1 1 180px;
     max-width: 180px;
     margin: 0;
-    background: white;
     padding: 1px;
     text-align: center;
 }
@@ -161,7 +159,7 @@ figcaption {
     color: var(--accent1-color);
     padding: 1px 1px;
     margin-top: 1px;
-    font: italic smaller sans-serif;
+    font: italic smaller sans-serif
 }
 
 footer {
@@ -184,5 +182,5 @@ footer {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--accent2-color);
 }
